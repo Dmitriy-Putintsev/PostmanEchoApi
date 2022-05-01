@@ -14,5 +14,5 @@ build: off  # будем использовать свой скрипт сбор
 
 
 build_script:
-  - chmod +x gradlew
+    - chmod +x gradlew #  предоставление прав на запуск файла gradlew
     - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
